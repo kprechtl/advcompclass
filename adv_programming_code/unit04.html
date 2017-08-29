@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    
+    <body>
+      <h1>Python template example</h1>
+
+      <!-- this shows how to display single variables -->
+      <p>
+          The {{ gene }} is involved in {{ process }}
+      </p>
+
+      <!-- This shows how to display a list of variables in a loop -->
+      <table>
+        <tr>
+          <th> ID </th>
+          <th> HEADER </th>
+          <th> SEQ LENGTH </th>
+
+          {% for seq in final_list %}
+            <td>{{seq[0]}}</td>
+            <td>{{seq[1]}}</td>
+            <td>{{seq[2]}}</td>
+          {% endfor %}
+        <tr>
+      </table>
+    </body>
+</html>

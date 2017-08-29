@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Final Project</title>
+    	<link rel="stylesheet" type="text/css" href="/kprecht2/final/css/final.css" />
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/kprecht2/final/js/statistics.js"></script>
+
+	<script type="text/javascript" src="/kprecht2/final/js/plotly_stats.js"></script>
+</head>
+
+<body id="main">
+
+<header>
+
+        <hgroup class = "clearfix" id="fixedheader"> Disease Variation Statistics 
+            <aside>
+                <nav class="topnav" id="myTopnav">
+                    <ul id="menu">
+                      <li><a href="/kprecht2/final/home.html" id="home">Home</a></li>
+                      </a></li>
+		      <li><a href="/kprecht2/final/statistics.cgi"  id="stats">Statistics</a></li>
+                    </ul>
+                </nav>
+            <aside>
+        </hgroup>
+    </header>
+
+<div id='graph2'> </div>
+  <div id='accordion'>
+	<h1 id='chrom6'> CHROMOSOME 6 </h1>
+     <div>
+	<p> Total Size = {{chrom6_size}} bp </p>
+	{% for result6 in results6 %}
+	<p> Total Number of Affected Genes:  {{result6[0]}} </p>
+        <p> Total Number of Variants:  {{result6[1]}} </p>  
+	{% endfor %}
+    </div>  
+	<h1 id='chrom7'> CHROMOSOME 7 </h1>
+    <div>
+	<p> Total Size = {{chrom7_size}} bp </p>
+	{% for result7 in results7 %}
+	<p> Total Number of Affected Genes:  {{result7[0]}} </p>
+        <p> Total Number of Variants:  {{result7[1]}} </p>  
+	{% endfor %}
+    </div>
+	<h1 id='chrom16'> CHROMOSOME 16 </h1>
+    <div>
+	<p> Total Size = {{chrom16_size}} bp </p>
+	{% for result16 in results16 %}
+	<p> Total Number of Affected Genes:  {{result16[0]}} </p>
+        <p> Total Number of Variants:  {{result16[1]}} </p>  
+	{% endfor %}
+    </div>
+	<h1 id='chrom17'> CHROMOSOME 17 </h1>
+    <div>
+	<p> Total Size = {{chrom17_size}} bp </p>
+	{% for result17 in results17 %}
+	<p> Total Number of Affected Genes:  {{result17[0]}} </p>
+        <p> Total Number of Variants:  {{result17[1]}} </p>  
+	{% endfor %}
+    </div>
+  </div>
+</body>
+
+</html>

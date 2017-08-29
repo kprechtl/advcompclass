@@ -1,0 +1,24 @@
+total 136
+drwxr-xr-x.   9 kprecht2 domain^users  4096 Jun  2 00:12 .
+drwxr-xr-x. 431 root     root         12288 Jun  1 22:28 ..
+-rw-------.   1 kprecht2 domain^users 22379 Apr 28 12:55 .bash_history
+-rw-r--r--.   1 kprecht2 domain^users    18 Jan 10 22:37 .bash_logout
+-rw-r--r--    1 kprecht2 domain^users   210 Feb 26 16:55 .bash_profile
+-rw-r--r--    1 kprecht2 domain^users   505 Feb 25 22:13 .bashrc
+-rw-r--r--    1 kprecht2 domain^users  7430 Feb 25 18:48 .biopieces.log
+-rw-r--r--.   1 kprecht2 domain^users   500 Jan 10 22:37 .emacs
+drwxr-xr-x    3 kprecht2 domain^users  4096 Jan 28 14:57 .emacs.d
+drwxr-xr-x.   2 kprecht2 domain^users  4096 Jan 10 22:37 .gnome2
+-rw-------    1 kprecht2 domain^users   208 Apr 17 23:49 .history
+-rw-r--r--    1 kprecht2 domain^users    33 Jun  2 00:10 I_was_here
+-rw-r--r--.   1 kprecht2 domain^users    40 Jan 10 22:37 .k5login
+-rw-------    1 kprecht2 domain^users    35 Feb 25 20:50 .lesshst
+drwxr-xr-x.   4 kprecht2 domain^users  4096 Jan 10 22:37 .mozilla
+-rw-------    1 kprecht2 domain^users 14783 Apr 17 23:42 .mysql_history
+drwxr-xr-x   13 kprecht2 domain^users  4096 Jun  1 23:48 old
+drwxr-----.   3 kprecht2 domain^users  4096 Jan 16 19:03 .pki
+-rw-r--r--    1 kprecht2 domain^users     0 Feb 25 22:06 .profile
+-rw-r--r--    1 kprecht2 domain^users     0 Jun  2 00:12 root.list
+drwx------    3 kprecht2 domain^users  4096 Jan 28 14:00 .ruby_inline
+drwx------    2 kprecht2 domain^users  4096 Jan 29 13:13 .ssh
+-rw-------    1 kprecht2 domain^users  9056 Jun  2 00:10 .viminfo

@@ -1,0 +1,28 @@
+feature_id	uniquename	name	value	fmin	fmax	strand
+101	ECDH10B_0026	polypeptide	bifunctional riboflavin kinase and FAD synthetase	21406	22348	1
+381	ECDH10B_0098	polypeptide	bifunctional aconitate hydratase 2 and 2-methylisocitrate dehydratase	105718	108316	1
+505	ECDH10B_0129	polypeptide	bifunctional glycosyl transferase and transpeptidase	138833	141368	1
+1669	ECDH10B_0436	polypeptide	bifunctional UDP-sugar hydrolase and 5'-nucleotidase	443468	445121	1
+1673	ECDH10B_0437	polypeptide	bifunctional cys-tRNA Pro deacetylase and cys-tRNA Cys deacylase	445157	445637	-1
+1861	ECDH10B_0485	polypeptide	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase and 5,10-methylene-tetrahydrofolate cyclohydrolase	495429	496296	-1
+4621	ECDH10B_1206	polypeptide	bifunctional thiamin pyrimidine pyrophosphate hydrolase and thiamin pyrophosphate hydrolase	1248494	1248956	-1
+6457	ECDH10B_1696	polypeptide	Qin prophage; bifunctional antitoxin of the RelE-RelB toxin-antitoxin system and transcriptional repressor	1733281	1733521	-1
+6681	ECDH10B_1755	polypeptide	bifunctional beta-cystathionase, PLP-dependent and regulator of maltose regulon	1789941	1791114	1
+8041	ECDH10B_2137	polypeptide	bifunctional cobinamide kinase and cobinamide phosphate guanylyltransferase	2154250	2154796	-1
+8149	ECDH10B_2168	polypeptide	bifunctional histidinal dehydrogenase and histidinol dehydrogenase	2180128	2181433	1
+8273	ECDH10B_2202	polypeptide	bifunctional GDP-fucose synthetase: GDP-4-dehydro-6-deoxy-D-mannose epimerase and GDP-4-dehydro-6-L-deoxygalactose reductase	2215256	2216222	-1
+8457	ECDH10B_2256	polypeptide	bifunctional hydroxy-methylpyrimidine kinase and hydroxy-phosphomethylpyrimidine kinase	2272745	2273546	-1
+8945	ECDH10B_2391	polypeptide	bifunctional 3-demethylubiquinone-9 3-methyltransferase and 2-octaprenyl-6-hydroxy phenol methylase	2428576	2429299	1
+9081	ECDH10B_2425	polypeptide	bifunctional 2-oxoglutarate decarboxylase and SHCHC synthase	2466598	2468269	-1
+9273	ECDH10B_2477	polypeptide	bifunctional folylpolyglutamate synthase and dihydrofolate synthase	2521460	2522729	-1
+9309	ECDH10B_2486	polypeptide	bifunctional 5-carboxymethylamino-methyl-2-thiouridine oxidoreductase and 5-aminomethyl-2-thiouridine methylase	2531550	2533557	1
+10365	ECDH10B_2766	polypeptide	bifunctional chorismate mutase P and prephenate dehydratase	2827531	2828692	1
+10369	ECDH10B_2767	polypeptide	bifunctional chorismate mutase T and prephenate dehydrogenase	2828734	2829856	-1
+11649	ECDH10B_3141	polypeptide	bifunctional prepilin leader peptidase and methylase	3203944	3204754	1
+11997	ECDH10B_3233	polypeptide	bifunctional dihydroneopterin aldolase and dihydroneopterin triphosphate 2'-epimerase	3299987	3300356	-1
+13013	ECDH10B_3510	polypeptide	bifunctional prepilin leader peptidase and methylase	3561309	3561987	1
+13105	ECDH10B_3535	polypeptide	bifunctional acetylornithine aminotransferase and succinyldiaminopimelate aminotransferase	3584726	3585947	-1
+14237	ECDH10B_3832	polypeptide	bifunctional (p)ppGpp synthetase II and guanosine-3',5'-bis pyrophosphate 3'-pyrophosphohydrolase	3918000	3920115	1
+14645	ECDH10B_3953	polypeptide	predicted bifunctional enzyme and transcriptional regulator	4045391	4046942	-1
+14873	ECDH10B_4024	polypeptide	bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase and S-adenosylmethionine:2-DMK methyltransferase	4115797	4116553	1
+15373	ECDH10B_4162	polypeptide	bifunctional biotin-[acetylCoA carboxylase] holoenzyme synthetase and DNA-binding transcriptional repressor, bio-5'-AMP-binding	4270801	4271767	1

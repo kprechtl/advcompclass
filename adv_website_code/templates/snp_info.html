@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Final Project</title>
+    	<link rel="stylesheet" type="text/css" href="/kprecht2/final/css/final.css" />
+	<script type="text/javascript" src="/kprecht2/final/js/plotly2.js"></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+
+<body id="main">
+
+<header>
+
+        <hgroup class = "clearfix" id="fixedheader"> Disease Variation Information 
+            <aside>
+                <nav class="topnav" id="myTopnav">
+                    <ul id="menu">
+                      <li><a href="/kprecht2/final/home.html" id="home">Home</a></li>
+                      </a></li>
+		      <li><a href="/kprecht2/final/statistics.cgi"  id="stats">Statistics</a></li>
+                    </ul>
+                </nav>
+            <aside>
+        </hgroup>
+    </header>
+
+<div id ="graph"> </div>
+
+</br></br></br></br></br></br></br></br></br></br></br>
+
+<div id="box">
+  <div id="loc_results">
+    <section id="loc_results">
+    <h1> VARIANT LOCATION </h1>
+	{% for result in loc_results %}
+	 <p> Chromosome Number: {{result[0]}} </p>
+	 <p> Location: {{result[1]}}bp - {{result[2]}}bp </p>
+	 <p> Ref Allele: {{result[3]}} </p>
+	 <p> Alt Allele: {{result[4]}}</p>
+	 <p> Cytogenic: {{result[5]}} </p>
+         {% endfor %}
+     </section>
+  </div>
+
+  <div id="snp_results">
+    <section id="snp_results">
+    <h1> VARIANT GENE </h1>
+    <h2 id="term2"> {{term}} </h2>
+	{% for result in results8 %}
+	 <p> Allele ID: {{result[1]}} </p>
+	 <p> Gene Symbol: {{result[3]}} (ID: {{result[2]}}) </p>
+	 <p> HGNC ID: <a href=http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id={{result[4]}} > {{result[4]}} </a> </p>
+	 <p> Variant Type: {{result[5]}} </p>
+	 <p> Phenotype: {{result[6]}} </p>
+	{% endfor %}	
+    </section>
+	<div  id = "graph3"> </div>
+ </div>
+</div>
+</body>
+
+</html>

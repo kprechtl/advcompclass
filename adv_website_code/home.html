@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="css/final.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/final.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body id="main">
+
+<header>
+
+        <hgroup class = "clearfix" id="fixedheader"> Disease Variation Search 
+            <aside>
+                <nav class="topnav" id="myTopnav">
+                    <ul id="menu">
+                      <li><a href="/kprecht2/final/home.html" id="home">Home</a></li>
+                      </a></li>
+		      <li><a href="/kprecht2/final/statistics.cgi"  id="stats">Statistics</a></li>
+                    </ul>
+                </nav>
+            <aside>
+        </hgroup>
+    </header>
+
+    <form name="gene_search" id="gene_search" action="">
+        <legend> Insert Disease Name Here </legend>
+        <input id="tags"  name="search_term" type="search" value="" autofocus="autofocus" placeholder="Enter a search term"/>
+        <input name="submit" type="submit" id="submit" value="submit">
+   </form>
+
+    <section id='results'>
+        <p>
+            <span id='match_count'>0</span> match(es) found.
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <td>Variation Name </td>
+                <td>Variation Type </td>
+                <td>Phenotype</td>
+                <td>Gene Symbol </td>
+                <td>Significance </td>
+                <td>OMIM ID </td>
+            </tr>
+            </thead>
+            <tbody>
+                <!-- this will be filled in by javascript when there are results -->
+            </tbody>
+    </section>
+  </div>
+
+</body>
+
+</html>
